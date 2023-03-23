@@ -15,6 +15,7 @@ const port = process.env.PORT || 3000;
 
  app.set('view engine', 'ejs');
 
+
 //ruta para visualizar el formulario de student.ejs
 app.get('/student', (req, res)=> {
     res.render('student');
